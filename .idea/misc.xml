@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/activity_actions.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/activity_add_client.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/activity_add_new_client.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/activity_add_oppertunite.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/activity_clients.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/activity_clients_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/activity_edit_profile.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/activity_navigation_drawer.xml" value="0.1796875" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/activity_oppertunites.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/activity_oprotunity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/activity_status.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/activity_user.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/activity_users_main.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/dialogcontent.xml" value="0.1796875" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/dialogcontent_satus.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/dialogstatusitem.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/fragment_dynamic.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/nav_header_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/opportunities_status_activity.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/opportunity_new_layout.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/opportunity_proposition_layout.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/opportunity_qualified_layout.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/opportunity_row.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/opportunity_won_layout.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/recyclerview_row.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/singlerow.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/singlerow_actions.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/singlerow_status.xml" value="0.1796875" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/singlerow_users.xml" value="0.1796875" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/layout/spiner_custome_style.xml" value="0.1796875" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/menu/activity_main_drawer.xml" value="0.1796875" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/menu/change_status.xml" value="0.1796875" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/menu/options_menu_status.xml" value="0.1796875" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/menu/searchmenu.xml" value="0.1" />
+        <entry key="..\:/Users/21262/Documents/android_java/OnlineOrder/app/src/main/res/menu/setting_app.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

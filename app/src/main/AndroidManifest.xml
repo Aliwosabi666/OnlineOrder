@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.CRM.opportunity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="false"
+        android:icon="@drawable/image"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/image"
+        android:supportsRtl="false"
+        android:name=".OnlineOrder"
+        android:theme="@style/AppTheme"
+        tools:ignore="HardcodedDebugMode">
+        <activity android:name="com.CRM.opportunity.opportunityMain.OprotunityActivityMain"></activity>
+        <activity
+            android:name="com.CRM.opportunity.users.UsersMain"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.CRM.opportunity.clients.Clients" />
+        <activity android:name="com.CRM.opportunity.Status.StatusActivity" />
+        <activity android:name="com.CRM.opportunity.Action.ActionsActivity" />
+        <activity
+            android:name="com.CRM.opportunity.oppertunites.OpportunitiesStatus"
+            android:label="@string/title_activity_navigation_drawer" />
+        <activity android:name="com.CRM.opportunity.clients.AddNewClient" />
+        <activity
+            android:name="com.CRM.opportunity.userAcounts.EditProfile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.CRM.opportunity.userAcounts.UserActivity" />
+        <activity
+            android:name="com.CRM.opportunity.userAcounts.Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.CRM.opportunity.NavigationDrawer" />
+        <activity
+            android:name="com.CRM.opportunity.OppertunitesActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.CRM.opportunity.AddOppertunite"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.CRM.opportunity.ClientsMain"
+            android:label="@string/title_activity_navigation_drawer" />
+        <activity
+            android:name="com.CRM.opportunity.client.AddClient"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.CRM.opportunity.userAcounts.Register"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

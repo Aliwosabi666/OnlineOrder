@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CRM</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Client</string>
+    <string name="menu_slideshow">oppertunite</string>
+    <string name="hello_world">Hellow World</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="user_profile">User Proflie</string>
+    <string name="abou">About</string>
+    <string name="hello_blank_fragment" />
+    <string name="add_clietn">Add Client</string>
+    <string name="add_oppertunite">Add Oppertunite</string>
+    <string name="add_status">Add New Status</string>
+    <string name="name">Name</string>
+    <string name="price">Expected</string>
+    <string name="Probabilite">Probabilite</string>
+    <string name="dilevery_date">Closing Date</string>
+    <string name="users">Users</string>
+    <string name="Status">Status</string>
+    <string name="last_aciont">Last Actions</string>
+    <string name="logout">LogOut</string>
+    <string name="opppertunite">Main oppertunite </string>
+
+    <!--    <string-array name="numbers">-->
+    <!--        <item>One</item>-->
+    <!--        <item>Two</item>-->
+    <!--        <item>Three</item>-->
+    <!--        <item>Four</item>-->
+    <!--        <item>Five</item>-->
+    <!--    </string-array>-->
+</resources>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "373878454253",
+    "firebase_url": "https://onlineorder-e7edf-default-rtdb.firebaseio.com",
+    "project_id": "onlineorder-e7edf",
+    "storage_bucket": "onlineorder-e7edf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373878454253:android:500b9acdcffd913ba399e4",
+        "android_client_info": {
+          "package_name": "com.CRM.opportunity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373878454253-6s3q3iuc92tjp6qduk91p57fmff9f6et.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzhG9CZdi0wAiy0TKXRe7sW5sVjmZ8gKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373878454253-6s3q3iuc92tjp6qduk91p57fmff9f6et.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373878454253:android:89021a06d9197e1ea399e4",
+        "android_client_info": {
+          "package_name": "com.example.OnlineOrder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373878454253-6s3q3iuc92tjp6qduk91p57fmff9f6et.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzhG9CZdi0wAiy0TKXRe7sW5sVjmZ8gKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373878454253-6s3q3iuc92tjp6qduk91p57fmff9f6et.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

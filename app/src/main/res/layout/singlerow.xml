@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:orientation="horizontal">
+
+             <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                 android:layout_weight="1.5"
+                 android:padding="10dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/customer"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/img1"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="@color/colorAccent"
+                    />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_weight="3.5"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nomtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="This is Demo Name"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/prenometext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone"
+                    android:text="This is prenom"
+                    android:textColor="#000"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:id="@+id/adressetext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="This is Adresse"
+                    android:textColor="#000"
+                    android:textSize="17sp"
+                     />
+
+                <TextView
+                    android:id="@+id/emailtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="This is Email"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/coor_gpstext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="This is Coor gps"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="10dp"
+
+                    />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+               android:layout_gravity="center"
+                android:id="@+id/clinent_option"
+                android:gravity="end"
+                android:layout_height="80dp">
+
+                <TextView
+
+                    android:layout_width="12dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/optionmenu"></TextView>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/editicon"
+            android:layout_width="193dp"
+            android:layout_height="40dp"
+            android:src="@drawable/edit" />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/deleteicon"
+                android:src="@drawable/delete"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:elevation="20dp"
+    android:orientation="vertical"
+
+    android:layout_height="225dp">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_top"
+        android:layout_height="55dp"
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="update opportunity status "
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:textColor="#F8F5F5"
+            android:id="@+id/toolbar_title" />
+
+        <LinearLayout
+            android:layout_width="35dp"
+            android:onClick="back"
+            android:id="@+id/back_button"
+            android:background="@drawable/abc_vector_test"
+         android:layout_margin="10dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#F8F5F5"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="35dp"
+            android:layout_gravity="right|center"
+            android:orientation="vertical"
+            android:layout_marginEnd="2dp"
+            android:gravity="right|center"
+            android:layout_height="match_parent">
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_baseline_done_24"
+                android:textColor="#F8F5F5"
+                android:layout_margin="5dp"
+                android:id="@+id/edit_stat"
+                android:textDirection="ltr"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/spiner_status_edit"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:paddingStart="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+            </Spinner>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:elevation="5dp"
+    tools:context="com.CRM.opportunity.AddOppertunite">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_top"
+        android:layout_height="55dp"
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        app:theme="@style/AppTheme" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add opportunity"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:textColor="#F8F5F5"
+            android:id="@+id/toolbar_title" />
+
+        <LinearLayout
+            android:layout_width="35dp"
+            android:gravity="left|center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="wrap_content"
+                android:onClick="back_op"
+                android:layout_height="wrap_content"
+                android:background="@drawable/abc_vector_test"
+                android:textColor="#F8F5F5"
+                />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_gravity="right|center"
+            android:orientation="vertical"
+            android:gravity="right|center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_baseline_done_24"
+                android:textColor="#F8F5F5"
+                android:textDirection="ltr"
+                android:onClick="save_op"
+                android:layout_gravity="left"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+<!--    <EditText-->
+<!--        android:id="@+id/txtid_opport"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:hint="Id"-->
+<!--        android:textColor="#000"-->
+<!--        android:textSize="18dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:focusable="auto"/>-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:padding="7dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtlib_opport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableEnd="@drawable/ic_baseline_home_24"
+            android:hint="Libelle oppertunite"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtrevenu_espere"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableEnd="@drawable/ic_baseline_attach_money_24"
+            android:hint="Revenu Espéré"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:focusable="auto"/>
+
+        <EditText
+            android:id="@+id/txtprobabilite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableEnd="@drawable/ic_baseline_priority_high_24"
+            android:hint="Probabilite"
+            android:textColor="#000"
+
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtdate_fermeture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            android:cursorVisible="false"
+            android:textIsSelectable="false"
+
+            android:hint="Date Fermeture"
+            android:inputType="none"
+            android:drawableEnd="@drawable/ic_baseline_date_range_24"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spiner_customers"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="Cusomers" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:hint="Choose Clint"
+            android:textSize="15sp" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
